@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="slide.css" />
+        <title>JavaScript Pyramid Slide</title>
+    </head>
+    <body>
+        <div id="m-background">
+        <div id="banner">
+            Pyramid Slide
+        </div>
+        <p>
+        <div id="container">
+            <div class="control-bar">Brick Symbol:
+                <select id="select" onchange="brickSymbol(this.value)">
+                    <option value="#">#</option>
+                    <option value="@">@</option>
+                    <option value="X">X</option>
+                    <option value="$">$</option>
+                </select>&nbsp;&nbsp;&nbsp;
+                How High?
+                <input type="range" id="height" min="2" max="20" oninput="heightElem(this.value)">&nbsp;&nbsp;<span id="range-text"></span>
+            </div>
+            <div id="pyramid"></div>
+        </div>
+        </div>
+
+
+    </body>
+    <script type="text/javascript" src="slide.js"></script>
+</html>

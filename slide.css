@@ -1,0 +1,47 @@
+#pyramid {
+    line-height: 0;
+    font-size: 30px;
+}
+
+body {
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+
+#container {
+    background-color: #EEEEEE;
+    margin: auto;
+    width: 75%;
+    border: medium solid #4db8ff;
+    border-radius: 5px;
+}
+
+.control-bar {
+    align-content: center;
+    margin: auto;
+    padding: 40px;
+    background-color: #CCCCCC;
+    font-weight: bold;
+}
+
+#banner {
+    background-color: #4db8ff;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f2f2f2;
+    width: 90%;
+    padding: 40px;
+}
+
+#m-background {
+    margin: auto;
+    background-color: #FAFAFA;
+    width: 65%;
+    height: 100%;
+}
+
+#range-text {
+    font-size: 18px;
+    font-weight: bold;
+}
